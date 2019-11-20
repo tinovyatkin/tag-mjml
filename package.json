@@ -1,0 +1,45 @@
+{
+  "name": "____FIX_ME____",
+  "description": "____FIX_ME____",
+  "license": "MIT",
+  "author": "Konstantin Vyatkin <tino@vtkn.io>",
+  "homepage": "https://github.com/tinovyatkin/____FIX_ME____#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinovyatkin/____FIX_ME____.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinovyatkin/____FIX_ME____/issues"
+  },
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint --ext=ts ./src",
+    "test": "jest",
+    "build": "tsc",
+    "prepublishOnly": "jest && tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-jest": "latest",
+    "husky": "latest",
+    "jest": "next",
+    "jest-extended": "latest",
+    "lint-staged": "latest",
+    "npm-package-json-lint": "latest",
+    "prettier": "latest",
+    "prettier-package-json": "latest",
+    "ts-jest": "latest",
+    "typescript": "latest"
+  },
+  "keywords": [
+    "____FIX_ME____"
+  ],
+  "engines": {
+    "yarn": ">=1.19"
+  }
+}
