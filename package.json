@@ -14,10 +14,15 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "lint": "eslint --ext=ts ./src",
-    "test": "jest",
     "build": "tsc",
-    "prepublishOnly": "jest && tsc"
+    "lint": "eslint --ext=ts ./src",
+    "prepublishOnly": "jest && tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ansi-to-html": "0.6.13",
+    "common-tags": "1.8.0",
+    "mjml": "4.5.1"
   },
   "devDependencies": {
     "@types/common-tags": "1.8.0",
@@ -41,28 +46,23 @@
     "typescript": "latest"
   },
   "keywords": [
-    "mjml",
-    "email",
-    "template",
-    "responsive",
+    "common-tags",
     "dynamic",
-    "tag",
-    "literal",
+    "email",
+    "es2015-tag",
     "es6",
     "es6-tags",
-    "es2015-tag",
+    "html",
+    "literal",
+    "mjml",
+    "responsive",
+    "tag",
     "tagged",
-    "template-tag",
-    "common-tags",
-    "html"
+    "template",
+    "template-tag"
   ],
   "engines": {
-    "yarn": ">=1.19",
-    "node": ">= 8"
-  },
-  "dependencies": {
-    "ansi-to-html": "0.6.13",
-    "common-tags": "1.8.0",
-    "mjml": "4.5.1"
+    "node": ">= 8",
+    "yarn": ">=1.19"
   }
 }
