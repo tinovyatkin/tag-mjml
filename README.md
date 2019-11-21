@@ -1,16 +1,4 @@
-# typescript-repo-template
-Template repository for my TypeScript projects, to avoid bolerplate creating:
+# tag-mjml
 
-- Base Typescript configuration
-- ESLint (with @typescript-eslint, Prettier config and `estlint-plugin-jest` for tests and lint task at GitHub Actions)
-- Jest (with TS-Jest, `jest-extended` and coverage reporting via Codecov on GitHub Actions)
-- Prettier configuration
-- Husky and lint-stagged
-- git configuration
-- Yarn configurations (prefix, autoclean, etc)
-- NPM configuration
-- Renovate configuration
-- VSCode configuration (editor config and recommended extensions)
-- SonarCloud configuration
-- Yamllint
-- Package.json lint and prettier
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
