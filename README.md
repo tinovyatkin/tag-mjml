@@ -1,4 +1,4 @@
-# [MJML](https://mjml.io/) Template String
+# [MJML](https://mjml.io/) Template String [![codecov](https://codecov.io/gh/tinovyatkin/tag-mjml/branch/master/graph/badge.svg)](https://codecov.io/gh/tinovyatkin/tag-mjml)
 
 A simple yet powerful module to allow you to use ES6 tagged template strings for rendering (generating HTML) of MJML templates, using dynamic substitutions, etc.
 Module takes care of automatic escaping/converting variables for HTML.
