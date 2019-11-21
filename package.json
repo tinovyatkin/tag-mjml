@@ -59,7 +59,8 @@
     "tag",
     "tagged",
     "template",
-    "template-tag"
+    "template-tag",
+    "typescript"
   ],
   "engines": {
     "node": ">= 8",
