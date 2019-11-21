@@ -1,5 +1,7 @@
 # [MJML](https://mjml.io/) Template String [![codecov](https://codecov.io/gh/tinovyatkin/tag-mjml/branch/master/graph/badge.svg)](https://codecov.io/gh/tinovyatkin/tag-mjml)
 
+<img src="https://raw.githubusercontent.com/tinovyatkin/tag-mjml/master/.github/logo/preview_icon_light.svg?sanitize=false" alt="MJML Tag" align="right">
+
 A simple yet powerful module to allow you to use ES6 tagged template strings for rendering (generating HTML) of MJML templates, using dynamic substitutions, etc.
 Module takes care of automatic escaping/converting variables for HTML.
 So, something as crazy as below works just fine:
