@@ -1,8 +1,8 @@
-# [MJML](https://mjml.io/) Template String [![codecov](https://codecov.io/gh/tinovyatkin/tag-mjml/branch/master/graph/badge.svg)](https://codecov.io/gh/tinovyatkin/tag-mjml)
+# [MJML](https://mjml.io/) Template String [![codecov](https://codecov.io/gh/tinovyatkin/tag-mjml/branch/master/graph/badge.svg)](https://codecov.io/gh/tinovyatkin/tag-mjml) [![NPM Version](https://img.shields.io/npm/v/tag-mjml.svg)](https://www.npmjs.com/package/tag-mjml) [![Dependencies](https://img.shields.io/david/tinovyatkin/tag-mjml.svg)](https://david-dm.org/tinovyatkin/tag-mjml) [![Downloads per month](https://img.shields.io/npm/dm/tag-mjml.svg)](https://npmcharts.com/compare/tag-mjml?minimal=true)
 
 <img src="https://raw.githubusercontent.com/tinovyatkin/tag-mjml/master/.github/logo/icon.png" alt="MJML Tag" align="right">
 
-A simple yet powerful module to allow you to use ES6 tagged template strings for rendering (generating HTML) of MJML templates, using dynamic substitutions, etc.
+A simple yet powerful module to allow you to use ES6 tagged template strings for rendering (generating HTML) of [MJML](https://mjml.io/) email templates using dynamic substitutions, etc.
 Module takes care of automatic escaping/converting variables for HTML.
 So, something as crazy as below works just fine:
 
