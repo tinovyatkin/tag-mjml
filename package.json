@@ -20,15 +20,19 @@
     "prepublishOnly": "jest && tsc"
   },
   "devDependencies": {
+    "@types/common-tags": "1.8.0",
     "@types/jest": "latest",
+    "@types/mjml": "4.0.2",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
+    "chalk": "3.0.0",
     "eslint": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-jest": "latest",
     "husky": "latest",
     "jest": "next",
-    "jest-extended": "latest",
+    "jest-circus": "25.0.0",
+    "jest-serializer-html": "7.0.0",
     "lint-staged": "latest",
     "npm-package-json-lint": "latest",
     "prettier": "latest",
@@ -41,5 +45,10 @@
   ],
   "engines": {
     "yarn": ">=1.19"
+  },
+  "dependencies": {
+    "ansi-to-html": "0.6.13",
+    "common-tags": "1.8.0",
+    "mjml": "4.5.1"
   }
 }

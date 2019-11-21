@@ -4,8 +4,11 @@ module.exports = {
   collectCoverage: true,
   verbose: true,
   coverageReporters: ['text', 'json', 'cobertura', 'lcov'],
+  collectCoverageFrom: ['<rootDir>/src/*.ts'],
   moduleFileExtensions: ['ts', 'js'],
-  setupFilesAfterEnv: ['jest-extended'],
+  testMatch: ['<rootDir>/src/*.test.ts'],
+  snapshotSerializers: ['jest-serializer-html'],
+  testRunner: 'jest-circus/runner',
   watchPathIgnorePatterns: [
     '<rootDir>/node_modules/',
     '<rootDir>/.sonarlint/',
