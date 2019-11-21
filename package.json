@@ -13,6 +13,10 @@
   },
   "version": "1.0.0",
   "main": "dist/index.js",
+  "files": [
+    "dist/index.d.ts",
+    "dist/index.js"
+  ],
   "scripts": {
     "build": "tsc",
     "lint": "eslint --ext=ts ./src",
