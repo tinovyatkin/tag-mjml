@@ -1,15 +1,15 @@
 {
-  "name": "____FIX_ME____",
-  "description": "____FIX_ME____",
+  "name": "tag-mjml",
+  "description": "Tagged template string function that converts MJML to HTML string",
   "license": "MIT",
   "author": "Konstantin Vyatkin <tino@vtkn.io>",
-  "homepage": "https://github.com/tinovyatkin/____FIX_ME____#readme",
+  "homepage": "https://github.com/tinovyatkin/tag-mjml#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinovyatkin/____FIX_ME____.git"
+    "url": "git+https://github.com/tinovyatkin/tag-mjml.git"
   },
   "bugs": {
-    "url": "https://github.com/tinovyatkin/____FIX_ME____/issues"
+    "url": "https://github.com/tinovyatkin/tag-mjml/issues"
   },
   "version": "1.0.0",
   "main": "dist/index.js",
@@ -41,10 +41,24 @@
     "typescript": "latest"
   },
   "keywords": [
-    "____FIX_ME____"
+    "mjml",
+    "email",
+    "template",
+    "responsive",
+    "dynamic",
+    "tag",
+    "literal",
+    "es6",
+    "es6-tags",
+    "es2015-tag",
+    "tagged",
+    "template-tag",
+    "common-tags",
+    "html"
   ],
   "engines": {
-    "yarn": ">=1.19"
+    "yarn": ">=1.19",
+    "node": ">= 8"
   },
   "dependencies": {
     "ansi-to-html": "0.6.13",
