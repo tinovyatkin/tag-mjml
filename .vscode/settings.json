@@ -4,6 +4,7 @@
   "eslint.autoFixOnSave": true,
   "eslint.validate": ["javascript", "typescript"],
   "editor.formatOnSave": true,
+  "typescript.format.enable": false,
   // switch off default VSCode formatting rules
   "javascript.format.enable": false,
   "typescript.surveys.enabled": false,
@@ -11,7 +12,9 @@
   "typescript.referencesCodeLens.enabled": true,
   "typescript.tsdk": "node_modules/typescript/lib",
   "yaml.format.enable": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "search.exclude": {
     "**/node_modules": true,
     "**/coverage": true,
@@ -41,7 +44,7 @@
     "**/.gtm": true,
     "**/.DS_Store": true,
     "jest_?/**": true,
-    "node_modules": true,
+    "node_modules": false,
     ".jestcache": true,
     ".eslintcache": true,
     "**/.sonarlint": true
@@ -65,5 +68,8 @@
       "fileMatch": [".npmpackagejsonlintrc.json"],
       "url": "http://json.schemastore.org/npmpackagejsonlintrc"
     }
-  ]
+  ],
+  "cSpell.words": ["mjml"],
+  "lit-html.tags": ["html", "mjml"],
+  "lit-html.format.enabled": true
 }

@@ -1,34 +1,43 @@
 {
-  "name": "____FIX_ME____",
-  "description": "____FIX_ME____",
+  "name": "tag-mjml",
+  "description": "Tagged template string function that converts MJML to HTML string",
   "license": "MIT",
   "author": "Konstantin Vyatkin <tino@vtkn.io>",
-  "homepage": "https://github.com/tinovyatkin/____FIX_ME____#readme",
+  "homepage": "https://github.com/tinovyatkin/tag-mjml#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinovyatkin/____FIX_ME____.git"
+    "url": "git+https://github.com/tinovyatkin/tag-mjml.git"
   },
   "bugs": {
-    "url": "https://github.com/tinovyatkin/____FIX_ME____/issues"
+    "url": "https://github.com/tinovyatkin/tag-mjml/issues"
   },
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "lint": "eslint --ext=ts ./src",
-    "test": "jest",
     "build": "tsc",
-    "prepublishOnly": "jest && tsc"
+    "lint": "eslint --ext=ts ./src",
+    "prepublishOnly": "jest && tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ansi-to-html": "0.6.13",
+    "common-tags": "1.8.0",
+    "mjml": "4.5.1"
   },
   "devDependencies": {
+    "@types/common-tags": "1.8.0",
     "@types/jest": "latest",
+    "@types/mjml": "4.0.2",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
+    "chalk": "3.0.0",
     "eslint": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-jest": "latest",
     "husky": "latest",
     "jest": "next",
-    "jest-extended": "latest",
+    "jest-circus": "25.0.0",
+    "jest-serializer-html": "7.0.0",
     "lint-staged": "latest",
     "npm-package-json-lint": "latest",
     "prettier": "latest",
@@ -37,9 +46,24 @@
     "typescript": "latest"
   },
   "keywords": [
-    "____FIX_ME____"
+    "common-tags",
+    "dynamic",
+    "email",
+    "es2015-tag",
+    "es6",
+    "es6-tags",
+    "html",
+    "literal",
+    "mjml",
+    "responsive",
+    "tag",
+    "tagged",
+    "template",
+    "template-tag",
+    "typescript"
   ],
   "engines": {
+    "node": ">= 8",
     "yarn": ">=1.19"
   }
 }
