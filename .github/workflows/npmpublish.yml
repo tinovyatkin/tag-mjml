@@ -61,6 +61,10 @@ jobs:
   publish-npm:
     needs: lint-package
     runs-on: ubuntu-latest
+    env:
+      CI: true
+      TERM: xterm-256color
+      FORCE_COLOR: 3
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
