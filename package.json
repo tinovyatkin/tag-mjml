@@ -30,7 +30,7 @@
   "devDependencies": {
     "@types/common-tags": "1.8.0",
     "@types/jest": "latest",
-    "@types/mjml": "4.0.3",
+    "@types/mjml": "4.0.4",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "chalk": "3.0.0",
