@@ -643,10 +643,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/mjml@4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@types/mjml/-/mjml-4.0.3.tgz#519b3e6fc8de63fe94df506a614037e3f831a7d4"
-  integrity sha512-jjeS60xgZo+/wrWR7K8eDwe1N0DOOmskJysI8rHvS/OL2L81X3vo1TkvG/EXvI5O3F1Jy9+FNFkqwHMFy14iYw==
+"@types/mjml@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@types/mjml/-/mjml-4.0.4.tgz#af6075d29f64d47186d76125504daf544dfb2b42"
+  integrity sha512-4PhI6iZ1zGXZ9X9W0bbmI7mS2xdxITURueqSWJ/cTeS5+tbAtOUDG1ww/fPbfcffWwR4NeOjyNcZiczafH/yfw==
 
 "@types/node@*":
   version "12.12.8"
