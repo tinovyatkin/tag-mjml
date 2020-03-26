@@ -3068,10 +3068,10 @@ jest-changed-files@^25.0.0:
     execa "^2.0.4"
     throat "^5.0.0"
 
-jest-circus@25.2.1:
-  version "25.2.1"
-  resolved "https://registry.yarnpkg.com/jest-circus/-/jest-circus-25.2.1.tgz#581f3038ece5c3ff9e77d5cfdf177900384606e7"
-  integrity sha512-lfkyZBlSsidEl/ZnThFmuYxNVpBCgy6XYVv2Xt2da2wUQELVIInySMGs9mSArtXfv/63q7Z8EvG+FxBYWm2G0w==
+jest-circus@25.2.2:
+  version "25.2.2"
+  resolved "https://registry.yarnpkg.com/jest-circus/-/jest-circus-25.2.2.tgz#0ecdb586e7516bb88756a3d1f93f4e1ae24e43db"
+  integrity sha512-x2lb5xa3aRuOWpq6FoyHx7z4rUCsv+SkquCmgljqKq/wp4ZKee0Ywy0SeeE142xwAMWtD5VW5jCeq7Nrd08q/g==
   dependencies:
     "@babel/traverse" "^7.1.0"
     "@jest/environment" "^25.2.1"
