@@ -39,7 +39,7 @@
     "eslint-plugin-jest": "latest",
     "husky": "latest",
     "jest": "next",
-    "jest-circus": "26.4.2",
+    "jest-circus": "26.5.1",
     "jest-serializer-html": "7.0.0",
     "lint-staged": "latest",
     "npm-package-json-lint": "latest",
