@@ -1079,10 +1079,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
     "@types/color-name" "^1.1.1"
     color-convert "^2.0.1"
 
-ansi-to-html@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/ansi-to-html/-/ansi-to-html-0.7.0.tgz#bd048451a43b5c5abe03272f5e40aaede3a158e6"
-  integrity sha512-XYAN+0+3Bi+nmTQBq717bGToQVpzq2AoukAaDnQQvpmqIbedjsdSDuGD7+YLYOPBh7rjc7A6ko5cLLDp06QNjw==
+ansi-to-html@0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/ansi-to-html/-/ansi-to-html-0.7.1.tgz#22411b5840c929a747b1bb6ced718fbba5154a14"
+  integrity sha512-PPpOy/TeLE6xERG5CNNpm1cLTIW1IeWULleeVc089paF45zfz5gzNPXeSQyxt1sUiKVIYZlY86AYx3fsMdIr5w==
   dependencies:
     entities "^2.2.0"
 
