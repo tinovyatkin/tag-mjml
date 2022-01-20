@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/tinovyatkin/tag-mjml/issues"
   },
-  "version": "1.0.11",
+  "version": "1.0.12",
   "main": "dist/index.js",
   "files": [
     "dist/index.d.ts"
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "ansi-to-html": "0.7.2",
-    "common-tags": "1.8.0",
+    "common-tags": "1.8.2",
     "mjml": "4.7.1"
   },
   "devDependencies": {
