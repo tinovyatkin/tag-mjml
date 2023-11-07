@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/tinovyatkin/tag-mjml/issues"
   },
-  "version": "1.0.11",
+  "version": "1.0.12",
   "main": "dist/index.js",
   "files": [
     "dist/index.d.ts"
@@ -25,12 +25,12 @@
   "dependencies": {
     "ansi-to-html": "0.7.2",
     "common-tags": "1.8.0",
-    "mjml": "4.7.1"
+    "mjml": "4.14.1"
   },
   "devDependencies": {
     "@types/common-tags": "1.8.1",
     "@types/jest": "latest",
-    "@types/mjml": "4.7.0",
+    "@types/mjml": "4.7.4",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
     "chalk": "4.1.2",
